@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "idroid";
+  src: url("fontes/idroid.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-image: linear-gradient(to top, #1a5c38, #3acf7d);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border: 1px, solid, black;
+  font-family: "Bebas Neue", sans-serif;
+  border-radius: 5px;
+}
+
+header > h1 {
+  font-family: "Work Sans", serif;
+  font-size: 3em;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.589);
+}
+
+header > p {
+  padding: 15px;
+  font-size: 1.2em;
+  max-width: 500px;
+  margin: auto;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.589);
+}
+
+nav {
+  text-decoration: none;
+  text-align: left;
+  padding-top: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.navegacao a {
+  text-decoration: none;
+  color: rgb(251, 249, 249);
+  margin-inline: 3px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navegacao a:hover {
+  background-color: #09301b;
+}
+
+body {
+  background-color: rgb(132, 225, 173);
+}
+
+main {
+  background-color: white;
+  border: 1px, solid, black;
+  margin-left: 26%;
+  margin-right: 26%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.429);
+  border-radius: 5px;
+}
+
+main h2 {
+  font-family: "idroid", arial, sans-serif;
+  font-style: normal;
+  color: #1a5c38;
+  padding: 10px;
+}
+
+main h3 {
+  font-family: "idroid", arial, sans-serif;
+  font-weight: normal;
+  color: white;
+  background: linear-gradient(to right, green, white);
+  padding: 10px;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main p {
+  font-family: "Bebas Neue", sans-serif;
+  text-indent: 2em;
+  text-align: justify;
+  padding: 10px;
+  line-height: 2em;   
+}
+
+main aside {
+  background-color: #c5ebd6;
+  margin-top: 5px;
+  padding-bottom: 0.5em;
+  border-radius: 10px;
+}
+
+.lista {
+  columns: 2;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.lista li::before {
+  margin: 5px 0;
+  content: "✔ ";
+}
+
+.video {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a5c38;
+}
+
+.dica {
+  background-color: #2fa866;
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+footer {
+  font-family: "Bebas Neue", sans-serif;
+  background-color: rgb(26, 80, 36);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
